@@ -99,9 +99,11 @@ function OtpLogin() {
       }
 
       try {
+        console.log('check',phoneNumber);
+        
         const confirmationResult = await signInWithPhoneNumber(
           auth,
-          phoneNumber,
+         `+${phoneNumber}`,
           recaptchaVerifier
         );
 
