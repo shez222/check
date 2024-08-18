@@ -13,14 +13,23 @@ import { getAuth } from "firebase/auth";
 //   measurementId: "G-6HRWE0D310"
 // };
 const firebaseConfig = {
-  apiKey: "AIzaSyAr-yQEsSPLMdinQ8GHITRYFUbiTwd8KAc",
-  authDomain: "school-web-c3ed5.firebaseapp.com",
-  projectId: "school-web-c3ed5",
-  storageBucket: "school-web-c3ed5.appspot.com",
-  messagingSenderId: "1066637057144",
-  appId: "1:1066637057144:web:504912fab65a5f2333e18d",
-  measurementId: "G-H26P0TE4N0"
-};
+  apiKey: "AIzaSyBC-icTCglwnJGWbAiy9FrN4XEI76xpSy0",
+  authDomain: "fir-auth-58ae9.firebaseapp.com",
+  projectId: "fir-auth-58ae9",
+  storageBucket: "fir-auth-58ae9.appspot.com",
+  messagingSenderId: "409486673502",
+  appId: "1:409486673502:web:dd432c7570c80d5d2196cf",
+  measurementId: "G-N5WV300PKS"
+ };
+// const firebaseConfig = {
+//   apiKey: "AIzaSyAr-yQEsSPLMdinQ8GHITRYFUbiTwd8KAc",
+//   authDomain: "school-web-c3ed5.firebaseapp.com",
+//   projectId: "school-web-c3ed5",
+//   storageBucket: "school-web-c3ed5.appspot.com",
+//   messagingSenderId: "1066637057144",
+//   appId: "1:1066637057144:web:504912fab65a5f2333e18d",
+//   measurementId: "G-H26P0TE4N0"
+// };
 // Initialize Firebase
 const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
 const auth = getAuth(app);
